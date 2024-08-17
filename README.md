@@ -6,7 +6,7 @@ features:
 
 - header only.
 - lock-free.
-- c++17 used.
+- c++11 or later
 - support both raw data block and object-oriented usage.
 
 # model
