@@ -24,12 +24,14 @@ then, the consumer check the "dirty" flag, swap R and N if the flag is set, and 
 2. two facilities are exposed: triple_buffer_basdic `<N>` is for raw block manipulation and triple_buffer `<T>` is object-oriented.
 3. you can ref to [https://github.com/yaozn/triple_buffer/blob/main/example.cpp]() for all examples:
 
-   run test:
+
+run the example(test): 
+```
    mkdir build
    cd build
    cmake ..
    make
-   
+```   
 
 3-1. basic usage:
 
